@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "graceful-fs": "^4.2.8"
+  },
+  "dependencies": {
+    "gitbook-plugin-betterchinese": "0.0.1"
+  }
+}

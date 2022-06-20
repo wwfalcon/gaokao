@@ -1,0 +1,7 @@
+/_book/
+/node_modules/
+node_modules
+book.pdf
+src/md/.DS_Store
+src/md/plan_policy/.DS_Store
+src/md/doc_mgt/.DS_Store

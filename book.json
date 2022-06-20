@@ -1,0 +1,109 @@
+{
+  "language": "zh-hans",
+  "description": "高考志愿参考",
+  "pluginsConfig": {
+    "logo": {
+      "title": "高考志愿参考",
+      "titleStyle": "color: #FFF; text-align: center; font-size: 18px",
+      "rootStyle": "background-color: #5b8de4; text-align: center; padding: 10px",
+      "url": "http://localhost"
+    },
+    "devops":{
+      "livere_token":"MTAyMC80NDEwOS8yMDY0NA"
+    },
+    "sitemap-general": {
+      "prefix": "http://localhost"
+    },
+    "callouts": {
+      "showTypeInHeader": false
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "sharing": {
+      "weibo": true,
+      "whatsapp": false,
+      "linkedin": true,
+      "google": false,
+      "line": false,
+      "qq": true,
+      "pocket": false,
+      "stumbleupon": false,
+      "instapaper": false,
+      "viber": false,
+      "messenger": false,
+      "facebook": false,
+      "vk": false,
+      "twitter": true,
+      "all": [
+        "facebook",
+        "line",
+        "linkedin",
+        "pocket",
+        "qq",
+        "twitter",
+        "weibo",
+        "whatsapp"
+      ],
+      "qzone": false,
+      "hatenaBookmark": false,
+      "douban": false
+    },
+    "tbfed-pagefooter": {
+      "modify_format": "YYYY-MM-DD HH:mm:ss",
+      "modify_label": "该文件修订时间："
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "page-treeview": {
+			"copyright": "Copyright © wwfalcon",
+			"minHeaderCount": "2",
+			"minHeaderDeep": "3"
+		},
+    "intopic-toc": {
+      "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6",
+      "mode": "nested",
+      "maxDepth": 4,
+      "isCollapsed": true,
+      "isScrollspyActive": true,
+      "visible": true,
+      "label": "内容大纲"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "root": "./src",
+  "plugins": [
+    "-theme-comscore",
+    "theme-default",
+    "fontsettings",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "splitter",
+    "-sharing",
+    "-sharing-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "-sitemap-general",
+    "copy-code-button",
+    "callouts",
+    "-devops",
+    "logo",
+    "offline",
+    "changelog",
+    "-page-treeview",
+    "back-to-top-button",
+    "intopic-toc"
+  ],
+  "author": "Gavin Wong <wangw@neusoft.com>",
+  "title": "高考志愿参考",
+  "gitbook": "3.2.3"
+}
